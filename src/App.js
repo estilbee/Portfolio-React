@@ -5,7 +5,9 @@ import Projects from './Components/Projects'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import About from './Components/About'
+import Contact from './Components/Contact'
 import header2 from './images/header2.jpg'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -25,11 +27,16 @@ function App() {
     //     </a>
     //       </header>
           <div>
-            <Navbar/>
-            <img src = {header2} alt ='floraldesign' ></img>
-            <Projects/>
-            <About/>
-            <Footer/>
+            <BrowserRouter> 
+              <Navbar/>
+              <Routes>
+                <Route path = "/portfolio" element = {<Projects/>}/>
+                <Route path = "/about" element = {<About/>}/> 
+                {/* repeat for about and contact */}
+                {/* <Contact/> */}
+              </Routes>
+              <Footer/>
+            </BrowserRouter>
           </div>
 
   );

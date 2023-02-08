@@ -1,24 +1,23 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
-nav ul li{
+nav ul li {
   color: rgb(193, 186, 178);
   display: inline;
+  /* flex-direction: row; */
   padding: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 /* need to add highlighting when selected and I want remove underline */
+
+nav {
+  height: 1000px;
+}
+
+nav ul {
+  padding-top: 80px;
+}
+
+nav ul li a {
+  font-size: xx-large;
+}
 
 a:link { text-decoration: none; }
 
@@ -26,10 +25,11 @@ a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 
 
-a:hover { text-decoration: none; }
+nav ul li a:hover { color: hotpink; }
 
 
-a:active { text-decoration: none; }
+nav ul li a:active { color: white; }
+/* figure out how to keep the white- it flashes so it might need a true/false */
 
 nav .navbar-brand { 
   color: rgb(152, 229, 94);

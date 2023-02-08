@@ -1,26 +1,31 @@
 import React from 'react';
+import header2 from '../images/header2.jpg';
+import {Link} from 'react-router-dom';
 
 function Navbar() {
 
 
     return (
         <div>
-         <nav  className="navbar bg-dark" data-bs-theme="dark" >
+    
+         <nav style = {{backgroundImage: `url(${header2})`}} >
             <ul>
                 <li>
-                    <a className="navbar-brand" href="#">Olivia Daouphars</a>
+                    <a href="#">Olivia Daouphars</a>
+                    {/* add a class to change font color */}
                 </li>
                 <li>
-                    <a href="#About"> About Me </a>
+                    <Link to = "/about">About Me</Link>
+                    {/* <a href="/about"> About Me </a> */}
                 </li>
                 <li>
-                    <a href="#Portfolio"> Portfolio</a>
+                    <a href="/portfolio"> Portfolio</a>
                 </li>
                 <li>
-                    <a href="#Contact"> Contact</a>
+                    <a href="/contact"> Contact</a>
                 </li>
                 <li>
-                    <a href="#Resume"> Resume</a>
+                    <a href="/resume"> Resume</a>
                 </li>
 
 
