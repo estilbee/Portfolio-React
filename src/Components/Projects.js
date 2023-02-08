@@ -23,8 +23,6 @@ function Projects () {
     return (
       
       <div>
-        {/* <Card name={ProjectData.name} image={ProjectData.image} description={ProjectData.description} /> */}
-        {/* why is this breaking too??^^ */}
         {ProjectData.map(project => {
           return (
             <ProjectCard name = {project.name} image = {project.image} description = {project.description} link = {project.link}></ProjectCard>

@@ -32,6 +32,7 @@ function App() {
               <Routes>
                 <Route path = "/portfolio" element = {<Projects/>}/>
                 <Route path = "/about" element = {<About/>}/> 
+                <Route path = "/contact" element = {<Contact/>}></Route>
                 {/* repeat for about and contact */}
                 {/* <Contact/> */}
               </Routes>

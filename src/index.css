@@ -17,6 +17,7 @@ nav ul {
 
 nav ul li a {
   font-size: xx-large;
+  color:rgb(193, 186, 178)
 }
 
 a:link { text-decoration: none; }
@@ -25,17 +26,16 @@ a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 
 
-nav ul li a:hover { color: hotpink; }
+nav ul li a:hover { color: rgb(243, 155, 40); }
 
 
 nav ul li a:active { color: white; }
 /* figure out how to keep the white- it flashes so it might need a true/false */
 
-nav .navbar-brand { 
+nav .nav-name { 
   color: rgb(152, 229, 94);
   font-weight: bold;
-  padding-top: 30px;
-
+  font-size: 50px;
 }
 
 footer p{

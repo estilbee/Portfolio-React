@@ -11,7 +11,7 @@ function Navbar() {
          <nav style = {{backgroundImage: `url(${header2})`}} >
             <ul>
                 <li>
-                    <a href="#">Olivia Daouphars</a>
+                    <a className = "nav-name" href="#">Olivia Daouphars</a>
                     {/* add a class to change font color */}
                 </li>
                 <li>
