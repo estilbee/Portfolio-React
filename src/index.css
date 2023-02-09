@@ -45,3 +45,8 @@ footer p{
   padding: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
