@@ -29,7 +29,7 @@ a:visited { text-decoration: none; }
 nav ul li a:hover { color: rgb(243, 155, 40); }
 
 
-nav ul li a:active { color: white; }
+nav ul li a:active { color: white }
 /* figure out how to keep the white- it flashes so it might need a true/false */
 
 nav .nav-name { 
@@ -70,12 +70,18 @@ footer p a:hover {
   padding-bottom: 50px;
 }
 
+/* input{
+ border: #eb945b;
+} */
+
 #message-box {
   height: 200px;
   width: 400px;
 }
 
 #about {
+  display: flex;
+  flex-direction: row;
   width: 70%;
   margin: 20px auto;
   background-color: #eb945b;
@@ -83,8 +89,13 @@ footer p a:hover {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#about p{
+  padding-left:25px;
+  padding-top: 25px;
+}
+
 .profile-photo{
-  width:500px;
+  width:400px;
 }
 
 .box {

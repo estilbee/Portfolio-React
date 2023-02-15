@@ -18,6 +18,7 @@ function Navbar() {
                 </li>
                 <li>
                     <Link to = "/about">About Me</Link>
+                    {/* trying out the Link to see if that lets us do the active link color */}
                     {/* <a href="/about"> About Me </a> */}
                 </li>
                 <li>
