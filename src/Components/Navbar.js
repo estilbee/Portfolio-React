@@ -1,6 +1,8 @@
 import React from 'react';
 import header2 from '../images/header2.jpg';
 import {Link} from 'react-router-dom';
+import flowerPortfolio from '../images/flowerportfolio2021.docx'
+
 
 function Navbar() {
 
@@ -25,7 +27,7 @@ function Navbar() {
                     <a href="/contact"> Contact</a>
                 </li>
                 <li>
-                    <a href="/resume"> Resume</a>
+                    <a href = {flowerPortfolio} download> Resume</a>
                 </li>
 
 

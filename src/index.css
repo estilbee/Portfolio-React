@@ -62,6 +62,14 @@ footer p a:hover {
   flex-direction: row;
 }
 
+.form-size {
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 #message-box {
   height: 200px;
   width: 400px;
@@ -72,6 +80,11 @@ footer p a:hover {
   margin: 20px auto;
   background-color: #eb945b;
   padding: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.profile-photo{
+  width:500px;
 }
 
 .box {
