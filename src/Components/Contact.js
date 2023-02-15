@@ -11,10 +11,19 @@ function Contact(){
     const handleInputChange = (e) => {
       // Getting the value and name of the input which triggered the change
       const { name, value } = e.target;
-  
-      // Ternary statement that will call either setFirstName or setLastName based on what field the user is typing in
-      return name === 'firstName' ? setFirstName(value) : setEmail(value) , setMessage(value);
-    //   i think this : , is whats causing the text to pop up in both input boxes 
+
+    switch (name){
+        case 'firstName': 
+        setFirstName(value);
+        break;
+        case 'email': 
+        setEmail(value);
+        break;
+        case 'message': 
+        setMessage(value);
+        break;
+    }
+    //   i think this : , is whats causing the text to pop up in name/email and message boxes 
     };
   
     const handleFormSubmit = (e) => {
@@ -36,6 +45,7 @@ function Contact(){
             onChange={handleInputChange}
             type="text"
             placeholder="Name"
+            required
           />
           <input
             value={email}
@@ -43,15 +53,18 @@ function Contact(){
             onChange={handleInputChange}
             type="text"
             placeholder="Email"
+            required 
           />
            <input
+            id = "message-box"
             value={message}
             name="message"
             onChange={handleInputChange}
             type="text"
             placeholder="Message"
+            required 
           />
-          <button type="button" onClick={handleFormSubmit}>
+          <button type="button" class = "btn btn-outline-success" onClick={handleFormSubmit}>
             Submit
           </button>
         </form>

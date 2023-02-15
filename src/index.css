@@ -44,9 +44,46 @@ footer p{
   justify-content: space-evenly;
   padding: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(156, 215, 111) ;
+  text-decoration: none;
 }
 
-.card {
+footer p a{ 
+  color: white; 
+}
+
+footer p a:hover { 
+  color: rgb(243, 155, 40); 
+}
+
+
+.card-div {
   display: flex;
   flex-direction: row;
 }
+
+#message-box {
+  height: 200px;
+  width: 400px;
+}
+
+#about {
+  width: 70%;
+  margin: 20px auto;
+  background-color: #eb945b;
+  padding: 50px;
+}
+
+.box {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  transition: all .5s linear;
+}
+
+.box :hover {
+  width:360px;
+  height:360px;
+}
+
+/* ^^ these .box classes are taken from my old portfolio but just seem to make the picture dissapear instead of appear in front of it */

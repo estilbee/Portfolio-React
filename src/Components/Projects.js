@@ -16,6 +16,7 @@ function Projects () {
         {
           name: "Grrrr'inder",
           image: mainimage,
+          image2: grrrrinder,
           description: "A doggie play-date app.",
           link: "https://floating-reef-00120.herokuapp.com/login"
         },
@@ -52,14 +53,19 @@ function Projects () {
     ]
 
     // const [filteredData, setFilter] = useState(ProjectData);
-
+    const imageSize = {
+      maxWidth: '35rem',
+      width: '35rem',
+    }
     return (
       
-      <div>
+      <div className= "row" style = {{justifyContent:"center"}}>
+
         {ProjectData.map(project => {
           return (
-            <ProjectCard name = {project.name} image = {project.image} description = {project.description} link = {project.link}></ProjectCard>
-
+            <div className="col-6 align-items-stretch" style={imageSize} key={project.name}>
+            <ProjectCard name = {project.name} imageSize={imageSize} image = {project.image} image2 = {project.image2} description = {project.description} link = {project.link}></ProjectCard>
+            </div>
           )
         })}
       </div>
