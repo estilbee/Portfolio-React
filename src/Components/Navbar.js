@@ -6,6 +6,10 @@ import flowerPortfolio from '../images/flowerportfolio2021.docx'
 
 function Navbar() {
 
+    const highlightLink = {
+        fontWeight: "bold",
+        color: "white"
+      };
 
     return (
         <div>
@@ -22,12 +26,15 @@ function Navbar() {
                     {/* <a href="/about"> About Me </a> */}
                 </li>
                 <li>
-                    <a href="/portfolio"> Portfolio</a>
+                    <Link to = "/portfolio">Portfolio</Link>
+                    {/* <a href="/portfolio"> Portfolio</a> */}
                 </li>
                 <li>
-                    <a href="/contact"> Contact</a>
+                    <Link to = "/contact">Contact</Link>
+                    {/* <a href="/contact"> Contact</a> */}
                 </li>
                 <li>
+                    {/* <Link to = {flowerPortfolio} download>Resume</Link> */}
                     <a href = {flowerPortfolio} download> Resume</a>
                 </li>
 
