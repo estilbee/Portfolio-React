@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.34d4701c.css",
-    "main.js": "/Portfolio-React/static/js/main.c0a8eaa8.js",
+    "main.css": "/Portfolio-React/static/css/main.0b1fdded.css",
+    "main.js": "/Portfolio-React/static/js/main.a10b9484.js",
     "static/js/787.aeca62f9.chunk.js": "/Portfolio-React/static/js/787.aeca62f9.chunk.js",
     "static/media/flowerportfolio2021.docx": "/Portfolio-React/static/media/flowerportfolio2021.badfb237b6deec18c2ef.docx",
     "static/media/grrrrinder.png": "/Portfolio-React/static/media/grrrrinder.4a09c4ac1dc4c5f57b42.png",
@@ -14,12 +14,12 @@
     "static/media/Ikebanasquare.jpg": "/Portfolio-React/static/media/Ikebanasquare.6028528495482f32769f.jpg",
     "static/media/logo.svg": "/Portfolio-React/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio-React/index.html",
-    "main.34d4701c.css.map": "/Portfolio-React/static/css/main.34d4701c.css.map",
-    "main.c0a8eaa8.js.map": "/Portfolio-React/static/js/main.c0a8eaa8.js.map",
+    "main.0b1fdded.css.map": "/Portfolio-React/static/css/main.0b1fdded.css.map",
+    "main.a10b9484.js.map": "/Portfolio-React/static/js/main.a10b9484.js.map",
     "787.aeca62f9.chunk.js.map": "/Portfolio-React/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34d4701c.css",
-    "static/js/main.c0a8eaa8.js"
+    "static/css/main.0b1fdded.css",
+    "static/js/main.a10b9484.js"
   ]
 }
