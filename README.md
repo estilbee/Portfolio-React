@@ -8,7 +8,7 @@ When I load the portfolio, I am presented with a home page containing my name ov
 When I click on the Resume section, my resume will be downloaded to your computer. When I view the footer I am presented with links to my Email, GitHub, and LinkedIn profiles. 
 
 ### Portfolio Link
-[Portfolio Link](https://estilbee.github.io/)
+[Portfolio Link](https://estilbee.github.io/Portfolio-React/)
 
 ### Portfolio Preview
 ![Portfolio](./src/images/portfolio.png)
