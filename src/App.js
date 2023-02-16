@@ -17,10 +17,10 @@ function App() {
             <BrowserRouter> 
               <Navbar/>
               <Routes>
-                <Route path = "/" element = {<Home/>}/>
-                <Route path = "/portfolio" element = {<Projects/>}/>
-                <Route path = "/about" element = {<About/>}/> 
-                <Route path = "/contact" element = {<Contact/>}></Route>
+                <Route path = "/Portfolio-React" element = {<Home/>}/>
+                <Route path = "/Portfolio-React/portfolio" element = {<Projects/>}/>
+                <Route path = "/Portfolio-React/about" element = {<About/>}/> 
+                <Route path = "/Portfolio-React/contact" element = {<Contact/>}></Route>
                 {/* repeat for about and contact */}
               </Routes>
               <Footer/>
