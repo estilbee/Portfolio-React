@@ -15,9 +15,15 @@ function Navbar() {
     
          <nav style = {{backgroundImage: `url(${header2})`}} >
             <ul>
-                <li>
+                {/* <li>
                     <a className = "nav-name" href="#">Olivia Daouphars</a>
-                    {/* add a class to change font color */}
+                </li> */}
+                <li>
+                    <NavLink to = "/"
+                    style={({ isActive }) =>
+                    isActive ? highlightLink : undefined}>Home</NavLink>
+                    {/* trying out the Link to see if that lets us do the active link color */}
+                    {/* <a href="/about"> About Me </a> */}
                 </li>
                 <li>
                     <NavLink to = "/about"

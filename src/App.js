@@ -7,6 +7,7 @@ import Footer from './Components/Footer'
 import About from './Components/About'
 import Contact from './Components/Contact'
 import header2 from './images/header2.jpg'
+import Home from './Components/Home'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <BrowserRouter> 
               <Navbar/>
               <Routes>
+                <Route path = "/" element = {<Home/>}/>
                 <Route path = "/portfolio" element = {<Projects/>}/>
                 <Route path = "/about" element = {<About/>}/> 
                 <Route path = "/contact" element = {<Contact/>}></Route>
