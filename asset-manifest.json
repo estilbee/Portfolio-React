@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/estilbee/Portfolio-React/static/css/main.34d4701c.css",
-    "main.js": "/estilbee/Portfolio-React/static/js/main.9f3634a9.js",
-    "static/js/787.aeca62f9.chunk.js": "/estilbee/Portfolio-React/static/js/787.aeca62f9.chunk.js",
-    "static/media/flowerportfolio2021.docx": "/estilbee/Portfolio-React/static/media/flowerportfolio2021.badfb237b6deec18c2ef.docx",
-    "static/media/grrrrinder.png": "/estilbee/Portfolio-React/static/media/grrrrinder.4a09c4ac1dc4c5f57b42.png",
-    "static/media/mainimage.jpg": "/estilbee/Portfolio-React/static/media/mainimage.526c2b9f8b5cdadf743c.jpg",
-    "static/media/fruitfield.jpg": "/estilbee/Portfolio-React/static/media/fruitfield.54ae881e50408171430c.jpg",
-    "static/media/header2.jpg": "/estilbee/Portfolio-React/static/media/header2.b5cd2b27a9c0a616c54e.jpg",
-    "static/media/Olivia_Ikebana.jpg": "/estilbee/Portfolio-React/static/media/Olivia_Ikebana.2f76b2694322c93893e5.jpg",
-    "static/media/suitcasefloral.jpg": "/estilbee/Portfolio-React/static/media/suitcasefloral.8add01a844f5c911c8c6.jpg",
-    "static/media/olivia.jpg": "/estilbee/Portfolio-React/static/media/olivia.c1d756db0bbaf5e1aa40.jpg",
-    "static/media/Ikebanasquare.jpg": "/estilbee/Portfolio-React/static/media/Ikebanasquare.6028528495482f32769f.jpg",
-    "static/media/logo.svg": "/estilbee/Portfolio-React/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/estilbee/Portfolio-React/index.html",
-    "main.34d4701c.css.map": "/estilbee/Portfolio-React/static/css/main.34d4701c.css.map",
-    "main.9f3634a9.js.map": "/estilbee/Portfolio-React/static/js/main.9f3634a9.js.map",
-    "787.aeca62f9.chunk.js.map": "/estilbee/Portfolio-React/static/js/787.aeca62f9.chunk.js.map"
+    "main.css": "/Portfolio-React/static/css/main.34d4701c.css",
+    "main.js": "/Portfolio-React/static/js/main.c0a8eaa8.js",
+    "static/js/787.aeca62f9.chunk.js": "/Portfolio-React/static/js/787.aeca62f9.chunk.js",
+    "static/media/flowerportfolio2021.docx": "/Portfolio-React/static/media/flowerportfolio2021.badfb237b6deec18c2ef.docx",
+    "static/media/grrrrinder.png": "/Portfolio-React/static/media/grrrrinder.4a09c4ac1dc4c5f57b42.png",
+    "static/media/mainimage.jpg": "/Portfolio-React/static/media/mainimage.526c2b9f8b5cdadf743c.jpg",
+    "static/media/fruitfield.jpg": "/Portfolio-React/static/media/fruitfield.54ae881e50408171430c.jpg",
+    "static/media/header2.jpg": "/Portfolio-React/static/media/header2.b5cd2b27a9c0a616c54e.jpg",
+    "static/media/Olivia_Ikebana.jpg": "/Portfolio-React/static/media/Olivia_Ikebana.2f76b2694322c93893e5.jpg",
+    "static/media/suitcasefloral.jpg": "/Portfolio-React/static/media/suitcasefloral.8add01a844f5c911c8c6.jpg",
+    "static/media/olivia.jpg": "/Portfolio-React/static/media/olivia.c1d756db0bbaf5e1aa40.jpg",
+    "static/media/Ikebanasquare.jpg": "/Portfolio-React/static/media/Ikebanasquare.6028528495482f32769f.jpg",
+    "static/media/logo.svg": "/Portfolio-React/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Portfolio-React/index.html",
+    "main.34d4701c.css.map": "/Portfolio-React/static/css/main.34d4701c.css.map",
+    "main.c0a8eaa8.js.map": "/Portfolio-React/static/js/main.c0a8eaa8.js.map",
+    "787.aeca62f9.chunk.js.map": "/Portfolio-React/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34d4701c.css",
-    "static/js/main.9f3634a9.js"
+    "static/js/main.c0a8eaa8.js"
   ]
 }
