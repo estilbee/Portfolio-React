@@ -1,5 +1,6 @@
 nav ul li {
   color: rgb(193, 186, 178);
+  font-size: 20px;
   display: inline;
   padding: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -21,7 +22,7 @@ nav ul {
 
 nav ul li a {
   font-size: 20px;
-  color:rgb(193, 186, 178)
+  color:rgb(193, 186, 178);
 }
 
 /* nav .nav-name { 
