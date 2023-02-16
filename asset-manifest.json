@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/estilbee/Portfolio-React/static/css/main.34d4701c.css",
-    "main.js": "/estilbee/Portfolio-React/static/js/main.73de4865.js",
+    "main.js": "/estilbee/Portfolio-React/static/js/main.9f3634a9.js",
     "static/js/787.aeca62f9.chunk.js": "/estilbee/Portfolio-React/static/js/787.aeca62f9.chunk.js",
     "static/media/flowerportfolio2021.docx": "/estilbee/Portfolio-React/static/media/flowerportfolio2021.badfb237b6deec18c2ef.docx",
     "static/media/grrrrinder.png": "/estilbee/Portfolio-React/static/media/grrrrinder.4a09c4ac1dc4c5f57b42.png",
@@ -15,11 +15,11 @@
     "static/media/logo.svg": "/estilbee/Portfolio-React/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/estilbee/Portfolio-React/index.html",
     "main.34d4701c.css.map": "/estilbee/Portfolio-React/static/css/main.34d4701c.css.map",
-    "main.73de4865.js.map": "/estilbee/Portfolio-React/static/js/main.73de4865.js.map",
+    "main.9f3634a9.js.map": "/estilbee/Portfolio-React/static/js/main.9f3634a9.js.map",
     "787.aeca62f9.chunk.js.map": "/estilbee/Portfolio-React/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34d4701c.css",
-    "static/js/main.73de4865.js"
+    "static/js/main.9f3634a9.js"
   ]
 }
