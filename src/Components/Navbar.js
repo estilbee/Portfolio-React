@@ -1,14 +1,13 @@
 import React from 'react';
 import header2 from '../images/header2.jpg';
-import {Link} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 import flowerPortfolio from '../images/flowerportfolio2021.docx'
 
 
 function Navbar() {
 
     const highlightLink = {
-        fontWeight: "bold",
-        color: "white"
+        color: "rgb(152, 229, 94)",
       };
 
     return (
@@ -21,16 +20,22 @@ function Navbar() {
                     {/* add a class to change font color */}
                 </li>
                 <li>
-                    <Link to = "/about">About Me</Link>
+                    <NavLink to = "/about"
+                    style={({ isActive }) =>
+                    isActive ? highlightLink : undefined}>About Me</NavLink>
                     {/* trying out the Link to see if that lets us do the active link color */}
                     {/* <a href="/about"> About Me </a> */}
                 </li>
                 <li>
-                    <Link to = "/portfolio">Portfolio</Link>
+                    <NavLink to = "/portfolio"
+                    style={({ isActive }) =>
+                    isActive ? highlightLink : undefined}>Portfolio</NavLink>
                     {/* <a href="/portfolio"> Portfolio</a> */}
                 </li>
                 <li>
-                    <Link to = "/contact">Contact</Link>
+                    <NavLink to = "/contact"
+                    style={({ isActive }) =>
+                    isActive ? highlightLink : undefined}>Contact</NavLink>
                     {/* <a href="/contact"> Contact</a> */}
                 </li>
                 <li>

@@ -24,9 +24,9 @@ function Contact() {
                 setMessage(value);
                 break;
         }
-        //   i think this : , is whats causing the text to pop up in name/email and message boxes 
     };
 
+    //function with regex that allows us to check if an email is valid 
     const checkEmail = (email) => {
         const validate = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
         return validate.test(email);
@@ -35,10 +35,12 @@ function Contact() {
     const handleFormSubmit = (e) => {
         // Preventing the default behavior of the form submit (which is to refresh the page)
         e.preventDefault();
+        //sending an error message if one or all of the fields are empty
         if (!email || !firstName || !message) {
             setErrorMessage("All fields are required.")
             return;
         }
+        //sends an error if the email address is not a valid email
         if (!checkEmail(email)) {
             setErrorMessage("Invalid email address.")
             return;
@@ -73,7 +75,7 @@ function Contact() {
                 </div>
                 <div class="col-12">
                     <label for="inputMessage" class="form-label">Message</label>
-                    <input
+                    <textarea
                         id="message-box"
                         value={message}
                         name="message"
@@ -83,33 +85,6 @@ function Contact() {
                         required
                     />
                 </div>
-                {/* </form>
-        <form className="row g-3">
-          <input
-            value={firstName}
-            name="firstName"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Name"
-            required
-          />
-          <input
-            value={email}
-            name="email"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Email"
-            required 
-          />
-           <input
-            id = "message-box"
-            value={message}
-            name="message"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Message"
-            required 
-          /> */}
                 <button type="button" class="btn btn-outline-success" onClick={handleFormSubmit}>
                     Submit
                 </button>

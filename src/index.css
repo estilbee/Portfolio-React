@@ -29,8 +29,8 @@ a:visited { text-decoration: none; }
 nav ul li a:hover { color: rgb(243, 155, 40); }
 
 
-nav ul li a:active { color: blue }
-/* figure out how to keep the white- it flashes so it might need a true/false */
+/* nav ul li a:active { color: blue }
+figure out how to keep the white- it flashes so it might need a true/false */
 
 nav .nav-name { 
   color: rgb(152, 229, 94);
@@ -70,9 +70,6 @@ footer p a:hover {
   padding-bottom: 50px;
 }
 
-/* input{
- border: #eb945b;
-} */
 
 #message-box {
   height: 200px;
