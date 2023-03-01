@@ -18,7 +18,7 @@ function Projects () {
           image: mainimage,
           image2: grrrrinder,
           description: "A doggie play-date app.",
-          link: "https://floating-reef-00120.herokuapp.com/login"
+          link: "https://grrrrinder2.herokuapp.com/"
         },
         {
           name: "Weather Dashboard",
@@ -59,7 +59,7 @@ function Projects () {
     }
     return (
       
-      <div className= "row" style = {{justifyContent:"center"}}>
+      <div className= "card-flex" style = {{justifyContent:"center"}}>
 
         {ProjectData.map(project => {
           return (
