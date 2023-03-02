@@ -142,8 +142,12 @@ footer p a:hover {
 }
 
 .imagewrapper:hover .box {
-  width:460px;
-  height:460px;
+  width:560px;
+  height:515px;
 }
+/* 
+#portfolio-background{
+  color:rgb(40, 40, 40)
+} */
 
 /* ^^ these .box classes are taken from my old portfolio but just seem to make the picture dissapear instead of appear in front of it */

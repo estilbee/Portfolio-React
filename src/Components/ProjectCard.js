@@ -1,10 +1,13 @@
 import React from 'react';
-
+// import header2 from '../images/header2.jpg';
+import {Helmet} from 'react-helmet'
 
 function Card(props) {
     
     return(
-     <div>
+
+        <div>
+        {/* <p id="portfolio-background" style = {{backgroundImage: `url(${header2})`}}></p> */}
 
          <div className = "card-div">
             <div className="imagewrapper card h-100" style = {props.imageSize}>
@@ -16,6 +19,12 @@ function Card(props) {
                     <p className="card-text">{props.description}</p>
                 </div>
             </div>
+            <div className="application">
+            <Helmet>
+                <style>{'body { background-color: black; }'}</style>
+            </Helmet>
+            ...
+        </div>
 
             
          </div>

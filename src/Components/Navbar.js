@@ -7,7 +7,7 @@ import flowerPortfolio from '../images/flowerportfolio2021.docx'
 function Navbar() {
 
     const highlightLink = {
-        color: "rgb(152, 229, 94)",
+        color: "rgb(156, 215, 111)",
       };
 
     return (
