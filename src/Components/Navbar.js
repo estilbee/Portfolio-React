@@ -1,7 +1,7 @@
 import React from 'react';
 import header2 from '../images/header2.jpg';
 import {Link, NavLink} from 'react-router-dom';
-import flowerPortfolio from '../images/flowerportfolio2021.docx'
+import resume from '../images/Resume2023.pdf';
 
 
 function Navbar() {
@@ -38,15 +38,14 @@ function Navbar() {
                     isActive ? highlightLink : undefined}>Portfolio</NavLink>
                     {/* <a href="/portfolio"> Portfolio</a> */}
                 </li>
-                <li>
+                {/* <li>
                     <NavLink to = "/Portfolio-React/contact"
                     style={({ isActive }) =>
                     isActive ? highlightLink : undefined}>Contact</NavLink>
-                    {/* <a href="/contact"> Contact</a> */}
-                </li>
+                </li> */}
                 <li>
                     {/* <Link to = {flowerPortfolio} download>Resume</Link> */}
-                    <a href = {flowerPortfolio} download> Resume</a>
+                    <a href = {resume} download> Resume</a>
                 </li>
 
 
