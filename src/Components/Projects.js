@@ -5,6 +5,7 @@ import ProjectCard from './ProjectCard';
 import grrrrinder2 from '../images/grrrrinder2.png'
 import Ikebanasquare from '../images/Ikebanasquare.jpg'
 import Olivia_Ikebana from '../images/Olivia_Ikebana.jpg'
+import Ikebana3 from '../images/Ikebana3.jpg'
 import fruitfield from '../images/fruitfield.jpg'
 import suitcasefloral from '../images/suitcasefloral.jpg'
 import mainimage from '../images/mainimage.jpg'
@@ -54,7 +55,7 @@ function Projects () {
         },
         {
           name: "Note Taker",
-          image: Olivia_Ikebana,
+          image: Ikebana3,
           image2: notetaker,
           description: "Write and save, big thoughts or small.",
           link: "https://estilbee-note-taker.herokuapp.com/"

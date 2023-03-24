@@ -145,6 +145,72 @@ footer p a:hover {
   width:560px;
   height:515px;
 }
+
+
+@media screen and (max-width: 1000px){ 
+#about{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+}
+.profile-photo{
+  width: 300px;
+  height: 300px;
+}
+#about p{
+  padding-left:25px;
+  padding-top: 25px;
+  font-size: 12px;
+}
+}
+
+@media screen and (max-width: 600px){ 
+  #about{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 30px auto;
+  padding: 20px;
+}
+.profile-photo{
+  width: 230px;
+  padding-left: 18px ;
+}
+#about p{
+  padding-left:25px;
+  padding-top: 25px;
+  font-size: 12px;
+}
+nav ul li a {
+  font-size: 12px;
+}
+/* .card-body{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width:auto;
+}
+.card-img-top {
+  height: auto;
+} */
+.card-flex {
+  max-width: 15rem;
+}
+
+.home-page .home-name {
+  font-size: xx-large;
+}
+
+.home-page .description{
+  font-size: medium;
+  padding-left: 30px;
+}
+
+}
+
+
 /* 
 #portfolio-background{
   color:rgb(40, 40, 40)
